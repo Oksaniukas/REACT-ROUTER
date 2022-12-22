@@ -1,0 +1,46 @@
+a {
+   text-decoration: none;
+}
+.wrapper {
+   margin: 0 auto;
+   max-width: 1190px;
+   // display: flex;
+}
+
+.main-block {
+   display: flex;
+   justify-content: space-between;
+}
+aside {
+   background:#872d43;
+   width: 150px;
+   min-height: 300px;
+   font-weight: 400;
+   margin-right: 20px;
+   font-family: 'Nunito Sans';
+   font-style: normal;      
+   font-size: 24px;
+   line-height: 33px;
+   color: #F8EEEF;
+   padding: 20px;
+}
+
+.aside-item {
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.aside-item:hover {
+   color: #872d43;
+   background-color: #F8EEEF;
+}
+
+.product-cards-block {
+   height: 400px;
+   border: 2px solid  #872d43;
+   // width: 85%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}
